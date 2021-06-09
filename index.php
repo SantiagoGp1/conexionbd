@@ -22,8 +22,8 @@
                     if ($_GET['confirm']==='0'){
                         echo '<div class="alert alert-danger" role="alert">Dato no ingresado</div>';
                     }
-                    if ($_GET['confirm']==='1'){
-                        echo '<div class="alert alert-succes" role="alert">Datoingresado correctamente</div>';
+                    if ($_GET['confirm'] === "1") {
+                        echo '<div class="alert alert-success" role="alert">Dato ingresado correctamente </div>';
                     }
                     if ($_GET['confirm']==='2'){
                         echo '<div class="alert alert-danger" role="alert">Uno o mas campos estan vacios</div>';
@@ -33,7 +33,7 @@
                 ?>
                 <form action="./config/insertar.php" method='POST'>
                     <div class="form-gorup">
-                        <input type="text" class="form-control" id='name'name='name' placeholder='Nombre'> <br>
+                        <input type="text" class="form-control" id='name'name='nombre' placeholder='Nombre'> <br>
                     </div>
                     <div class="form-gorup">
                         <input type="text" class="form-control" id='apellido'name='apellido' placeholder='Apellido'> <br>

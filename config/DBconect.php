@@ -2,8 +2,8 @@
 
     class Database {
         
-        public $db; //controladores db
-        private static $dns = "mysql:host=localhost;dbname=prueba"; //url de la BD
+        public static $db; //controladores db
+        private static $dns = "mysql:host=localhost;dbname=pureba"; //url de la BD
         private static $user = "root"; //usaurio de la conexion
         private static $pass = ""; //contraseña del usuario
         private static $instance; //instancia de la conexion

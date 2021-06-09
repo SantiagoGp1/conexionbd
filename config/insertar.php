@@ -13,7 +13,7 @@
             $conexion = new Database;
             $confirm = $conexion->insertar($nombre, $apellido, $edad, $email);
         } else {
-            $confirm = 3 ; //uno o mas campos están vacios
+            $confirm = 2 ; //uno o mas campos están vacios
         }
 
     }
